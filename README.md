@@ -1,6 +1,6 @@
 # Numerai_Deepnet
 
-This repository contains code to load and train a deepnet on the numerai dataset. This is a very basic version that can be easily tuned to produce origional results. The deepnet architecture is loosely based off of fractalnet.
+This repository contains code to load and train a deepnet on the [numerai dataset](https://numer.ai/). This is a very basic version that can be easily tuned to produce origional results. The deepnet architecture is loosely based off of fractalnet.
 
 The current version contains only 27k params and achieves competitive results in only 30mins of training on a cheap laptop CPU. This model effortlessly achieves 51.5% accuracy in equity predictions 4 weeks in advance. These results are then traded via the numerai hedgefund and payments are made in proportion the results achieved. 
 
